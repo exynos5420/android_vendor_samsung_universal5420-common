@@ -4,7 +4,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter chagalllte chagallltetmo chagallwifi ha3g klimtlte klimtltecan klimttd klimtwifi n1awifi n2awifi v1a3g v1awifi v2awifi,$(TARGET_DEVICE)),)
+ifneq ($(filter chagalllte chagallltetmo chagallwifi ha3g klimtlte klimtltecan klimttd klimtwifi n1awifi n1a3g n2awifi v1a3g v1awifi v2awifi,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 
