@@ -4,19 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter chagalllte chagallltetmo chagallwifi ha3g klimtlte klimtltecan klimttd klimtwifi n1awifi n1a3g n2awifi v1a3g v1awifi v2awifi,$(TARGET_DEVICE)),)
-
-include $(CLEAR_VARS)
-
-EGL_LIBS := libOpenCL.so libOpenCL.so.1 libOpenCL.so.1.1
-
-EGL_32_SYMLINKS := $(addprefix $(TARGET_OUT_VENDOR)/lib/,$(EGL_LIBS))
-$(EGL_32_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
-	@echo "Symlink: EGL 32-bit lib: $@"
-	@mkdir -p $(dir $@)
-	@rm -rf $@
-	$(hide) ln -sf /vendor/lib/egl/libGLES_mali.so $@
-
-ALL_DEFAULT_INSTALLED_MODULES += $(EGL_32_SYMLINKS) 
+ifneq ($(filter chagalllte chagallwifi klimtlte klimtltecan klimtwifi n1awifi n2awifi v1awifi v2awifi,$(TARGET_DEVICE)),)
 
 endif
