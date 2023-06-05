@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3040c54e_6a06892d",
+        "filename": "universal5420-common-vendor.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000137
+      },
+      "writtenOn": "2023-06-05T16:06:57Z",
+      "side": 1,
+      "message": "Why v2a?",
+      "revId": "80f59d31f580248e34e766b2aabc788c8939fedd",
+      "serverId": "c6d92919-bfe7-411c-9f64-004a8163e0f0"
+    }
+  ]
+}
