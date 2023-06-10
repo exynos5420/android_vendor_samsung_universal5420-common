@@ -16,6 +16,24 @@
       "message": "Why v2a?",
       "revId": "80f59d31f580248e34e766b2aabc788c8939fedd",
       "serverId": "c6d92919-bfe7-411c-9f64-004a8163e0f0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73cb437c_bcc12a1d",
+        "filename": "universal5420-common-vendor.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2023-06-10T18:14:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3040c54e_6a06892d",
+      "revId": "80f59d31f580248e34e766b2aabc788c8939fedd",
+      "serverId": "c6d92919-bfe7-411c-9f64-004a8163e0f0"
     }
   ]
 }
